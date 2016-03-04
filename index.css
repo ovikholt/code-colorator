@@ -3,6 +3,9 @@ body, textarea {
   font-size: 1em;
   background-color: black;
 }
+h1 {
+  font-family: Helvetica;
+}
 body {
   margin-top: 3em;
   margin-bottom: 15em;
