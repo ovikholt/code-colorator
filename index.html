@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+  <script type="text/javascript" src="md5.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+
+<div class='content'>
+
+  <h1>Color words used in source-code</h1>
+  
+  <div class='instructions'>
+    <ul>
+      <li>Type 'j' to see the Java example.</li>
+      <li>Clear the text area to see the JavaScript example.</li>
+      <li>Paste anything to see that.</li>
+    </ul>
+  </div>
+
+  <textarea rows="16" cols="80" class='input'></textarea>
+
+  <div class='example'>@Test
+public void convertNewspaperWithBoatRideAndFullCoverage()
+    throws Error {
+  Inquiry inquiry = inquiryPresser.press();
+  Newspaper.Reply.Presser newspaperReplyPresser =
+      SampleNewspaperReplyPresser.createEmpty()
+      .addSimpleRideWithPaper("A4")
+      .addBoatRide()
+      .getNewspaperReplyPresser();
+  Pathserver.RideSet.Presser ridecollectionPresser = newspaperReplyPresser
+      .getRidesetPresser();
+  ridecollectionPresser.addErrorPresser();  // Maybe also some other problem.
+  world.we.us.that.newspaper.Newspaper.Presser newspaperPresser =
+      world.we.us.that.newspaper.Newspaper.newPresser();
+  converter.convertToNewspaper(
+      inquiry, newspaperReplyPresser.press(),
+      newspaperPresser, NewspaperInquiry.DetailLevel.PAPER,
+      null, paperUnraveler);
+
+  world.we.us.that.newspaper.Newspaper newspaper =
+      newspaperPresser.press();
+  assertEquals(2, newspaper.getRideCount());
+  assertFalse(newspaper.getSomeBoatCoverage());
+}</div>
+
+  <div class='code'>
+  </div>
+</div>
+
+</body>
+</html>
