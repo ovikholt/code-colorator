@@ -226,3 +226,10 @@ function getManualColorGetter() {
 }
 };
 all()
+
+jQuery(function(){
+  jQuery('textarea').scroll(function(eventObject){
+    jQuery('.code').scrollTop(jQuery('textarea').scrollTop());
+  });
+});
+  
